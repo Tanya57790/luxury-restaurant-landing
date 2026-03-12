@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local';
+import '@/styles/global.css';
 
 const yesevaOne = localFont({
   src: '../../public/assets/fonts/yeseva-one/yeseva-one-regular.woff2',

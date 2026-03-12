@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  html { font-size: 14px; }
+
+  a {
+    font-size: 13px; 
+  }
+  
+  span,
+  p {
+    font-size: 14px; 
+  }
+  
+  @media (max-width: 640px) {
+    a {
+      font-size: 13px; 
+    }
+
+    span,
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 641px) {
+    a {
+      font-size: 15px; 
+    }
+
+    span,
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    a {
+      font-size: 17px; 
+    }
+
+    span,
+    p {
+      font-size: 18px;
+      line-height: 1.55;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    a {
+      font-size: 19px; 
+    }
+
+    span,
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@theme inline {
+  --font-display: var(--font-yeseva-one);
+  --font-inter: var(--font-inter);
+}
+
+
+@theme {
+  --breakpoint-xs: 30rem;
+}

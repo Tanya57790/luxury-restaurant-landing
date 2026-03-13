@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <>
+    <div className="relative">
       <div className="relative -mx-6 md:-mx-8 xl:-mx-11">
         <div className="absolute inset-0 bg-black/25 shadow-md z-10" />
         <picture>
@@ -43,7 +43,7 @@ const Hero = () => {
           experience to a new standard of luxury.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

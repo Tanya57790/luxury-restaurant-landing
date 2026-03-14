@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import { ButtonLink } from '../../ButtonLink';
 
 const About = () => {
   return (
@@ -32,25 +32,18 @@ const About = () => {
       </div>
       <div className="flex items-center pt-5">
         <hr className="w-full border-[#1F2122] border" />
-        <Link
+        <ButtonLink
           href="#"
           className="
-            flex justify-center items-center text-center ml-6.5 
-            font-inter text-[#393E46] w-35 h-11.5 px-2.5 py-2 
+            ml-6.5 w-35 h-11.5 px-2.5 py-2 
             sm:w-45 sm:h-14 sm:px-3 sm:py-2.5 sm:ml-13
             md:w-55 md:h-16 lg:px-4 lg:py-4.5
             xl:w-57 xl:h-18 xl:px-5 xl:py-5.5
             2xl:w-60 2xl:h-20 2xl:p-6 2xl:py-6.5 
-            bg-white border-2 border-[#1F2122] 
-            hover:bg-gray-300 
-            hover:border-gray-700
-            active:border-white
-            active:bg-black
-            active:text-white
-            transition-all duration-200 ease-in-out"
+           "
         >
           About us
-        </Link>
+        </ButtonLink>
       </div>
     </div>
   );

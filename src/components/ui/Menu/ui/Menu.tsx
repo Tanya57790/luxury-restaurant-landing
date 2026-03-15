@@ -19,7 +19,7 @@ const Menu = ({ handler }: Handler) => {
       <div className="hidden md:flex items-center justify-between md:w-[45%] lg:w-[35%] 2xl:w-[30%]">
         <ul className="flex justify-between w-full pr-12.5 lg:pr-17.5 xl:pr-25.5">
           {navLinks.map((link) => (
-            <li key={link.id} className="font-inter text-white hover:text-emerald-500">
+            <li key={link.id} className="font-inter font-medium text-white hover:text-emerald-500">
               <Link href={link.href}>{link.name}</Link>
             </li>
           ))}

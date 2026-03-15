@@ -14,7 +14,7 @@ export const reservationLink = {
   name: 'Reservation',
   href: '#reservation',
   className: `
-    font-inter text-white w-29.75 h-11.5 p-2.5 
+    font-inter font-medium text-white w-29.75 h-11.5 p-2.5 
     lg:w-32.75 lg:h-13.5 lg:p-4 
     xl:w-41.75 xl:h-15.5 xl:p-5 
     2xl:w-44.75 2xl:h-18.5 bg-black border-0

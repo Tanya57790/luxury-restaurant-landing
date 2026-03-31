@@ -15,7 +15,48 @@
   p {
     font-size: 14px; 
   }
-  
+
+  .swiper {
+    overflow: visible !important;
+    padding-right: 20px !important;
+  }
+
+  .swiper-wrapper {
+    column-gap: 5px;
+  }
+
+  .swiper-slide { 
+    width: auto !important; 
+    height: auto !important; 
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .swiper-pagination {
+    display: none;
+    top: unset !important;
+    right: 0;
+    bottom: 30px !important;
+    width: auto !important; 
+    text-align: right !important;
+    margin-right: calc(var(--spacing) * 6);
+    z-index: -10 !important;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 1 !important;
+    border-radius: unset !important;
+    background: #DFDEDE !important;
+    margin: 0 4px !important;
+    width: 37px !important;
+    height: 6px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 56px !important;
+    background: #1F2122 !important;
+  }
+ 
   @media (max-width: 640px) {
     a {
       font-size: 13px; 
@@ -24,6 +65,20 @@
     span,
     p {
       font-size: 14px;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .swiper { 
+      padding-right: 40px !important;
+    }
+
+    .swiper-wrapper {
+      column-gap: 10px;
+    }
+
+    .swiper-pagination {
+      display: block;
     }
   }
   
@@ -38,6 +93,33 @@
     }
   }
   
+  @media (min-width: 768px) {
+    .swiper-pagination {
+      margin-right: calc(var(--spacing) * 8)
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .swiper { 
+      padding-right: 60px !important;
+    }
+    .swiper-wrapper {
+      column-gap: 15px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .swiper { 
+      padding-right: 80px !important;
+    }
+    .swiper-wrapper {
+      column-gap: 20px;
+    }
+    .swiper-pagination {
+      margin-right: calc(var(--spacing) * 11)
+    }
+  }
+  
   @media (min-width: 1536px) {
     a {
       font-size: 17px; 
@@ -47,6 +129,13 @@
     p {
       font-size: 18px;
       line-height: 1.55;
+    }
+
+    .swiper { 
+      padding-right: 120px !important;
+    }
+    .swiper-wrapper {
+      column-gap: 30px;
     }
   }
 

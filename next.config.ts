@@ -1,7 +1,19 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
+import WithBundleAnalyzer from '@next/bundle-analyzer';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    formats: ['image/webp', 'image/avif'],
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  experimental: {
+    optimizePackageImports: ['swiper', '@tailwindcss/postcss', 'react-hook-form'],
+  },
+  transpilePackages: ['swiper', '@tailwindcss/postcss', 'react-hook-form'],
 };
 
-export default nextConfig;
+export default WithBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+})(nextConfig);

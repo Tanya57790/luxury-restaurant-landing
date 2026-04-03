@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import '@/styles/global.css';
 
@@ -6,7 +6,7 @@ const yesevaOne = localFont({
   src: '../../public/assets/fonts/yeseva-one/yeseva-one-regular.woff2',
   weight: '400',
   style: 'normal',
-  display: 'block',
+  display: 'swap',
   variable: '--font-yeseva-one',
 });
 
@@ -28,14 +28,14 @@ const inter = localFont({
       style: 'normal',
     },
   ],
-  display: 'block',
+  display: 'swap',
   variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
   title: 'El Guling Cafe',
   description:
-    "Immerse yourself in a symphony of exquisite flavors, surrounded by refined decor and unparalleled service in luxury restaraunt.",
+    'Immerse yourself in a symphony of exquisite flavors, surrounded by refined decor and unparalleled service in luxury restaraunt.',
 };
 
 export default function RootLayout({
@@ -45,11 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${yesevaOne.variable} ${inter.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${yesevaOne.variable} ${inter.variable} antialiased`}>{children}</body>
     </html>
   );
 }

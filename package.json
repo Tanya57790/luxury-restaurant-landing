@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "clean": "pnpm store prune && pnpm rm -rf .next",
+    "analyzer": "pnpm dlx cross-env ANALYZE=true pnpm build",
     "build:start": "pnpm run build && pnpm start",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write .",
@@ -23,6 +24,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^16.2.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/nodemailer": "^7.0.11",

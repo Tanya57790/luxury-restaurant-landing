@@ -11,9 +11,6 @@ importers:
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.72.0(react@19.2.3))
-      '@next/bundle-analyzer':
-        specifier: ^16.2.2
-        version: 16.2.2
       next:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -36,6 +33,9 @@ importers:
         specifier: ^4.3.6
         version: 4.3.6
     devDependencies:
+      '@next/bundle-analyzer':
+        specifier: ^16.2.2
+        version: 16.2.2
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.2.1

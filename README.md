@@ -32,6 +32,9 @@ The project was created as a training project to develop layout skills using Tai
   <img width="914" height="620" src="https://github.com/user-attachments/assets/43d49002-8057-4a4f-bfe6-5ddbb2503546" />
 </p>
 
+## Deploy on Vercel
+https://luxury-restaurant-landing.vercel.app/
+
 ## Setup
 
 1. Go to the folder where you want to store the project.

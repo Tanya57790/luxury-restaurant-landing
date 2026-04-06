@@ -1,5 +1,5 @@
 # <p align="center">luxury-restaurant-landing</p>
-Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, TypeScript, Tailwind CSS, nodemailer, react-hook-form, Zod,  Swiper.
+Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, TypeScript, Tailwind CSS, Resend, Unisender, react-hook-form, Zod, Swiper.
 
 ## View
 
@@ -8,7 +8,7 @@ Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, 
 </p>
 
 ## Target
-The project was created as a training project to develop layout skills using Tailwind CSS, Swiper, react-hook-form, nodemailer. 
+The project was created as a training project to develop layout skills using Tailwind CSS, Swiper, react-hook-form, nodemailer, Resend. 
 
 ## Responsive Design
 
@@ -25,6 +25,11 @@ The project was created as a training project to develop layout skills using Tai
 ### Desktop
 <p align="center">
   <img width="1279" height="799" src="https://github.com/user-attachments/assets/cff4434b-39a5-44b0-8539-e3f49e962c6a" />
+</p>
+
+### Unisender template
+<p align="center">
+  <img width="914" height="620" src="https://github.com/user-attachments/assets/43d49002-8057-4a4f-bfe6-5ddbb2503546" />
 </p>
 
 ## Setup
@@ -80,7 +85,7 @@ If you want practice your skills.
 
 ## Features
 - Modern form with feedback
-- Form sending via email using nodemailer
+- Form sending via email using Resend
 - Form validation using Zod
 - Fully responsive (mobile-first)
 - TypeScript typing

@@ -1,27 +1,33 @@
 'use server';
 
 import { NextRequest, NextResponse } from 'next/server';
-import { transporter } from '@/lib/email';
+import fs from 'fs/promises';
+import path from 'path';
+import { Resend } from 'resend';
 
 export async function POST(request: NextRequest) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY!);
     const { firstName, lastName, email, phoneNumber, userMessage } = await request.json();
 
-    const mailOptions = {
-      from: `"${process.env.SENDER_NAME}" <${process.env.EMAIL_USER}>`,
+    const templatePath = path.join(process.cwd(), 'public/emails/unisender-template.html');
+    let html = await fs.readFile(templatePath, 'utf-8');
+
+    html = html
+      .replace(/{{firstName}}/g, firstName || '')
+      .replace(/{{lastName}}/g, lastName || '')
+      .replace(/{{phoneNumber}}/g, phoneNumber || '')
+      .replace(/{{email}}/g, email || '')
+      .replace(/{{userMessage}}/g, userMessage || '');
+
+    await resend.emails.send({
+      from: `"${process.env.SENDER_NAME}" <${process.env.SMTP_USER}>`,
       to: `${process.env.CONTACT_EMAIL}`,
       replyTo: `${firstName} <${email}>`,
       subject: `New application from ${firstName} ${lastName}`,
       text: `First name: ${firstName}\nLast name: ${lastName}\nEmail: ${email}\nMessage: ${userMessage}`,
-      html: `<h3>New application</h3>
-             <p><strong>First name:</strong> ${firstName}</p>
-             <p><strong>Last name:</strong> ${lastName}</p>
-             <p><strong>Phone number:</strong> ${phoneNumber}</p>
-             <p><strong>Email:</strong> ${email}</p>
-             <p><strong>Message:</strong> ${userMessage}</p>`,
-    };
-
-    await transporter.sendMail(mailOptions);
+      html: html,
+    });
 
     return NextResponse.json({ message: 'Успешно отправлено' }, { status: 200 });
   } catch (error) {

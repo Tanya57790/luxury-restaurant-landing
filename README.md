@@ -86,6 +86,11 @@ https://www.figma.com/design/qu5s4RrbEUiZphrv3IjNMB/Luxury-Restaurant-Landing-Pa
 ```
 If you want practice your skills.
 
+## What problems did I encounter?
+- Choosing between Nodemailer and Resend. Nodemailer doesn't work reliably in Vercel, unlike Resend, so Resend's free plan is better suited for contact forms.
+- Performance. Despite using WEBP images, code splitting, and optimizations in next.config.ts, Lighthouse yielded low scores of around 40-60. Using [WebPageTest](https://webpagetest.org/) yields more consistent results.
+- Development speed. The mockup and API development took 27 days, and the timeframe is getting shorter with each project. In the future, I plan to use my own templates to speed up development.
+
 ## Features
 - Modern form with feedback
 - Form sending via email using Resend

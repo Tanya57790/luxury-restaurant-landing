@@ -4,17 +4,18 @@ Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, 
 ## Contents 
 0. [View](#view)
 1. [Target](#target)
-2. [Responsive Design](#responsive-design)
+2. [Features](#features)
+3. [Responsive Design](#responsive-design)
     1. [Mobile](#mobile)
     2. [Tablet](#tablet)
     3. [Desktop](#desktop)
 4. [Unisender template](#unisender-template)
-5. [Deploy on Vercel](#deploy-on-vercel)
+5. [Deploy on Vercel](#deploy-on-vercel)  
 6. [Setup](#setup)
 7. [Getting Started](#getting-started)
 8. [Link to the layout](#link-to-the-layout)
-9. [What problems did I encounter?](#what-problems-did-i-encounter)
-10. [Features](#features)
+9. [Development Issues](#development-issues)
+
    
 ## View
 
@@ -26,6 +27,15 @@ Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, 
 
 ## Target
 The project was created as a training project to develop layout skills using Tailwind CSS, Swiper, react-hook-form, nodemailer, Resend. 
+
+[:arrow_up:Contents](#contents) 
+
+## Features
+:heavy_check_mark: Modern form with feedback    
+:heavy_check_mark: Form sending via email using Resend    
+:heavy_check_mark: Form validation using Zod    
+:heavy_check_mark: Fully responsive (mobile-first)    
+:heavy_check_mark: TypeScript typing    
 
 [:arrow_up:Contents](#contents) 
 
@@ -121,22 +131,12 @@ If you want practice your skills.
 
 [:arrow_up:Contents](#contents) 
 
-## What problems did I encounter?
+## Development Issues
 :heavy_multiplication_x: Choosing between Nodemailer and Resend. Nodemailer doesn't work reliably in Vercel, unlike Resend, so Resend's free plan is better suited for contact forms.    
 :heavy_multiplication_x: Performance. Despite using WEBP images, code splitting, and optimizations in next.config.ts, Lighthouse yielded low scores of around 40-60. Using [WebPageTest](https://webpagetest.org/) yields more consistent results.    
 :heavy_multiplication_x: Development speed. The mockup and API development took 27 days, and the timeframe is getting shorter with each project. In the future, I plan to use my own templates to speed up development.   
 
 [:arrow_up:Contents](#contents) 
-
-## Features
-:heavy_check_mark: Modern form with feedback    
-:heavy_check_mark: Form sending via email using Resend    
-:heavy_check_mark: Form validation using Zod    
-:heavy_check_mark: Fully responsive (mobile-first)    
-:heavy_check_mark: TypeScript typing    
-
-[:arrow_up:Contents](#contents) 
-
 
 ## Author
 <a href="https://github.com/Tanya57790">Tanya57790</a>

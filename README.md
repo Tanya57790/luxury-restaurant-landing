@@ -20,7 +20,7 @@ Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, 
 ## View
 
 <p align="center">
-  <img width="897" height="579" src="https://github.com/user-attachments/assets/a640f9f0-141f-4835-b23a-9bb440793365" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section" width="897" height="579" src="https://github.com/user-attachments/assets/a640f9f0-141f-4835-b23a-9bb440793365" />
 </p>    
 
 [:arrow_up:Contents](#contents)    
@@ -43,28 +43,28 @@ The project was created as a training project to develop layout skills using Tai
 
 ### Mobile
 <p align="center">
-  <img width="315" height="635" src="https://github.com/user-attachments/assets/71be77ea-6352-4ab7-bfdd-ef63128626f9" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on mobile" width="315" height="635" src="https://github.com/user-attachments/assets/71be77ea-6352-4ab7-bfdd-ef63128626f9" />
 </p>
 
 [:arrow_up:Contents](#contents) 
 
 ### Tablet
 <p align="center">
-  <img width="762" height="631" src="https://github.com/user-attachments/assets/8f48d7b0-ea38-4708-9234-e56228d0b559" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on tablet" width="762" height="631" src="https://github.com/user-attachments/assets/8f48d7b0-ea38-4708-9234-e56228d0b559" />
 </p>
 
 [:arrow_up:Contents](#contents) 
 
 ### Desktop
 <p align="center">
-  <img width="1279" height="799" src="https://github.com/user-attachments/assets/cff4434b-39a5-44b0-8539-e3f49e962c6a" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on desktop" width="1279" height="799" src="https://github.com/user-attachments/assets/cff4434b-39a5-44b0-8539-e3f49e962c6a" />
 </p>
 
 [:arrow_up:Contents](#contents) 
 
 ## Unisender template
 <p align="center">
-  <img width="914" height="620" src="https://github.com/user-attachments/assets/43d49002-8057-4a4f-bfe6-5ddbb2503546" />
+  <img alt="Desktop email from Luxury Restaurant landing page" width="914" height="620" src="https://github.com/user-attachments/assets/43d49002-8057-4a4f-bfe6-5ddbb2503546" />
 </p>
 
 [:arrow_up:Contents](#contents) 

@@ -1,5 +1,21 @@
 # <p align="center">luxury-restaurant-landing</p>
-Landing page on the theme of the Luxury Restaurant. Built using React, Next.js, TypeScript, Tailwind CSS, Resend, Unisender, react-hook-form, Zod, Swiper.
+<div align="center">   
+  
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+  ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=grey) 
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) 
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+  ![Swiper](https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=white)
+  ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?logo=reacthookform&logoColor=white)
+  ![Zod](https://img.shields.io/badge/Zod-408AFF?logo=zod&logoColor=white)
+  ![Resend](https://img.shields.io/badge/Resend-000000?logo=resend&logoColor=white)
+  ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
+  ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=white)  
+  
+</div>
+
+
+
 
 ## View
 

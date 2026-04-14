@@ -20,7 +20,7 @@
 ## View
 
 <p align="center">
-  <img alt="Luxury Restaurant responsive landing page homepage with hero section" width="897" height="579" src="https://github.com/user-attachments/assets/a640f9f0-141f-4835-b23a-9bb440793365" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section" width="897" height="579" src="https://github.com/user-attachments/assets/c0f584f6-4f85-4728-a434-91b306a78d95" />
 </p>    
 
 ## Features
@@ -34,22 +34,22 @@
 
 ### Mobile
 <p align="center">
-  <img alt="Luxury Restaurant responsive landing page homepage with hero section on mobile" width="315" height="635" src="https://github.com/user-attachments/assets/71be77ea-6352-4ab7-bfdd-ef63128626f9" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on mobile" width="315" height="635" src="https://github.com/user-attachments/assets/100218c8-a355-48e3-b5cc-a8518c84f2bf" />
 </p>
 
 ### Tablet
 <p align="center">
-  <img alt="Luxury Restaurant responsive landing page homepage with hero section on tablet" width="762" height="631" src="https://github.com/user-attachments/assets/8f48d7b0-ea38-4708-9234-e56228d0b559" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on tablet" width="762" height="631" src="https://github.com/user-attachments/assets/79c3adf0-cdbb-4641-8971-1c02f546969b" />
 </p>
 
 ### Desktop
 <p align="center">
-  <img alt="Luxury Restaurant responsive landing page homepage with hero section on desktop" width="1279" height="799" src="https://github.com/user-attachments/assets/cff4434b-39a5-44b0-8539-e3f49e962c6a" />
+  <img alt="Luxury Restaurant responsive landing page homepage with hero section on desktop" width="1279" height="799" src="https://github.com/user-attachments/assets/b8f4534a-1887-46e4-9b5d-37d19aba1181" />
 </p>
 
 ## Unisender template
 <p align="center">
-  <img alt="Desktop email from Luxury Restaurant landing page" width="914" height="620" src="https://github.com/user-attachments/assets/43d49002-8057-4a4f-bfe6-5ddbb2503546" />
+  <img alt="Desktop email from Luxury Restaurant landing page" width="914" height="620" src="https://github.com/user-attachments/assets/9225e242-577e-4b6c-802f-d843fc771ef3" />
 </p>
 
 ## Deploy on Vercel
